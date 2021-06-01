@@ -1,0 +1,166 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*Syle de Home*/
+
+.inicio {
+    font-family: 'Stick', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.inicioh3 {
+    font-family: 'Stick', sans-serif;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    width: auto;
+    text-align: center;
+    height: 1200px;
+    align-items: center;
+    background-color: rgb(248, 247, 170);
+    color: #0c0608;
+}
+
+
+/*Syle barra nacegacion*/
+
+.navbars {
+    display: flex;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    background-color: rgb(252, 152, 94);
+    align-items: center;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.nav {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    width: 310px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.nav:hover {
+    color: #ffffff;
+    background-color: #413d39;
+    text-decoration: none;
+}
+
+.active {
+    color: #0c0608;
+    background-color: #92f559;
+}
+
+
+/*Style de datos escolares*/
+
+.content {
+    width: auto;
+    height: 500px;
+    display: flex;
+    background-color: rgba(82, 143, 255, 0.952);
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 10px;
+    height: 400px;
+    background-color: rgba(255, 237, 154, 0.952);
+    text-align: center;
+}
+
+.content:hover .contenedor {
+    filter: blur(3px);
+    opacity: .5;
+    transform: scale(.98);
+    box-shadow: none;
+}
+
+.content:hover .contenedor:hover:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+
+.title {
+    font-size: 40px;
+}
+
+.textcuerpo {
+    font-size: 25px;
+}
+
+.contenedor:hover {
+    color: #ffffff;
+    background-color: rgb(132, 255, 17);
+    color: #0c0608;
+}
+
+.imgdes {
+    width: auto;
+    height: 180px;
+    box-shadow: 0 8px 20px 0px rgb(252, 252, 252);
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+
+/*Style comidas*/
+
+.imgcomi {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 8px 20px 8px rgb(252, 252, 252);
+}
+
+
+/*Musica*/
+
+.imgletra {
+    width: auto;
+    height: 600px;
+    background-color: #cac9c8;
+}
+
+.contentmusic {
+    width: auto;
+    height: 800px;
+    display: flex;
+    background-color: rgba(255, 146, 146, 0.952);
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedormusic {
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 10px;
+    height: 550px;
+    background-color: rgba(255, 237, 154, 0.952);
+    text-align: center;
+}
+
+.video {
+    width: 100px;
+    height: 200px;
+}

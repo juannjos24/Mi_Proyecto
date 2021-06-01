@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="Funciones.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <br>
+
+        <div class="navbars">
+            <a class="nav" href="../Index.html">Home</a>
+            <a class="nav" href="../Ruta/Datos_escolares.html">Datos Escolares</a>
+            <a class="nav" href="../Ruta/Comidas.html">Comidas</a>
+            <a class="nav" href="../Ruta/Hobbies.html">Hobbies</a>
+            <a class="nav" href="../Ruta/Musica.html">Musica</a>
+            <a class="nav " href="../Ruta/Hnacional.html">Heroe Nacional</a>
+            <a class="nav active" href="Calculadora.html">Calculadora</a>
+        </div>
+        <br>
+        <div class="contorno">
+            <div class="espacio2"></div>
+            <div class="pantalla">
+                <p id="textoPantalla">0</p>
+            </div>
+            <div class="espacio1"></div>
+            <div class="teclado">
+
+                <div class="liena">
+                    <input class="tecla" type="button" value="Retr" onclick="retro()" />
+                    </input>
+                    <input class="tecla " type="button" value="CE" onclick="borradoParcial()">
+                    </input>
+                    <input class="tecla" type="button" value="C" onclick="borradoTotal()">
+                    </input>
+
+                </div>
+
+                <div class="liena ">
+                    <input class="tecla" type="button" value="6" onclick="numero('6')">
+                    </input>
+                    <input class="tecla" type="button" value="7" onclick="numero('7')">
+                    </input>
+                    <input class="tecla" type="button" value="8" onclick="numero('8')">
+                    </input>
+                    <input class="tecla" type="button" value="9" onclick="numero('9')">
+                    </input>
+
+                </div>
+
+                <div class="liena ">
+                    <input class="tecla" type="button" value="5" onclick="numero('5')">
+                    </input>
+                    <input class="tecla" type="button" value="4" onclick="numero('4')">
+                    </input>
+                    <input class="tecla" type="button" value="3" onclick="numero('3')">
+                    </input>
+                    <input class="tecla" type="button" value="2" onclick="numero('2')">
+                    </input>
+                </div>
+
+                <div class="liena ">
+                    <input class="tecla" type="button" value="1" onclick="numero('1')">
+                    </input>
+                    <input class="tecla" type="button" value="0" onclick="numero('0')">
+                    </input>
+                    <input class="tecla" type="button" value="." onclick="numero('.')">
+                    </input>
+                    <input class="tecla" type="button" value="%" onclick="porcent()">
+                    </input>
+                </div>
+                <div class="liena">
+                    <input class="tecla" type="button" value="+" onclick="operar('+')">
+                    </input>
+                    <input class="tecla" type="button" value="-" onclick="operar('-')">
+                    </input>
+                    <input class="tecla" type="button" value="/" onclick="operar('/')">
+                    </input>
+                    <input class="tecla" type="button" value="Raiz" onclick="raizc()" />
+                    </input>
+
+                </div>
+                <div class="liena">
+                    <input class="tecla" type="button" value="*" onclick="operar('*')">
+                    </input>
+
+                    <input class="tecla" type="button" value="1/x" onclick="inve()">
+                    </input>
+                    <input class="tecla " type="button " value="+/-" onclick="opuest()">
+                    </input>
+                    <input class="tecla" type="button" value="=" onclick="igualar()">
+                    </input>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
